@@ -1,1 +1,18 @@
 
+From https://github.com/Mikeyifr/testci
+ * branch            stage      -> FETCH_HEAD
+Already up to date.
+Version: 1.0.0
+Commit SHA: dd85caa
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon  100.9kB
+Step 1/2 : FROM ubuntu:20.04
+ ---> 6013ae1a63c2
+Step 2/2 : COPY test.txt .
+ ---> Using cache
+ ---> fed5a1848005
+Successfully built fed5a1848005
+Successfully tagged 1.0.0-dd85caa:latest
