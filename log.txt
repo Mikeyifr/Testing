@@ -2,993 +2,258 @@
 From https://github.com/Mikeyifr/testci
  * branch            stage      -> FETCH_HEAD
 Already up to date.
-Version: 1.0.1
+M	ci.sh
+M	docker-compose.yml
+M	log.txt
+M	package.json
+Your branch is up to date with 'origin/stage'.
+Version: 1.0.4
 Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+Error: bad expression, please check expression syntax
+#0 building with "default" instance using docker driver
 
-Sending build context to Docker daemon  115.7kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.1-e43f685:latest
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 72B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:20.04
+#3 DONE 1.0s
+
+#4 [1/2] FROM docker.io/library/ubuntu:20.04@sha256:8e5c4f0285ecbb4ead070431d29b576a530d3166df73ec44affc1cd27555141b
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 29B done
+#5 DONE 0.0s
+
+#6 [2/2] COPY test.txt .
+#6 CACHED
+
+#7 exporting to image
+#7 exporting layers done
+#7 writing image sha256:5d99cb6747cb73714211b29fa42cd2e1ce754b9a0f7d8c1977da6799f9787307 done
+#7 naming to docker.io/library/1.0.4-e43f685 done
+#7 DONE 0.0s
+Starting testci_app_1 ... 
+Starting testci_app_1 ... done
 From https://github.com/Mikeyifr/testci
  * branch            stage      -> FETCH_HEAD
 Already up to date.
-Version: 1.0.2
+M	docker-compose.yml
+M	log.txt
+M	package.json
+Your branch is up to date with 'origin/stage'.
+Version: 1.0.4
 Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#0 building with "default" instance using docker driver
 
-Sending build context to Docker daemon  116.2kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.2-e43f685:latest
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.2
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
 
-Sending build context to Docker daemon  116.7kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.2-e43f685:latest
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.2
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 72B done
+#2 DONE 0.0s
 
-Sending build context to Docker daemon  117.8kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.2-e43f685:latest
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.1
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#3 [internal] load metadata for docker.io/library/ubuntu:20.04
+#3 DONE 0.5s
 
-Sending build context to Docker daemon  118.3kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.1-e43f685:latest
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#4 [1/2] FROM docker.io/library/ubuntu:20.04@sha256:8e5c4f0285ecbb4ead070431d29b576a530d3166df73ec44affc1cd27555141b
+#4 DONE 0.0s
 
-Sending build context to Docker daemon  119.8kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
- Container testci_testci_1  Recreate
- Container testci_testci_1  Recreated
- Container testci-testci-1  Starting
- Container testci-testci-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#5 [internal] load build context
+#5 transferring context: 29B done
+#5 DONE 0.0s
 
-Sending build context to Docker daemon  120.3kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
- Container testci-testci-1  Created
- Container testci-testci-1  Starting
- Container testci-testci-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#6 [2/2] COPY test.txt .
+#6 CACHED
 
-Sending build context to Docker daemon  121.9kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-usage: yq [-h] [--yaml-output] [--yaml-roundtrip]
-          [--yaml-output-grammar-version {1.1,1.2}] [--width WIDTH]
-          [--indentless-lists] [--in-place] [--version]
-          [jq_filter] [files ...]
-yq: error: argument files: can't open '.services.testci.image = "1.0.5-e43f685"': [Errno 2] No such file or directory: '.services.testci.image = "1.0.5-e43f685"'
- Container testci-testci-1  Created
- Container testci-testci-1  Starting
- Container testci-testci-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  122.9kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-usage: yq [-h] [--yaml-output] [--yaml-roundtrip]
-          [--yaml-output-grammar-version {1.1,1.2}] [--width WIDTH]
-          [--indentless-lists] [--in-place] [--version]
-          [jq_filter] [files ...]
-yq: error: argument files: can't open '.services.testci.image = "1.0.5-e43f685"': [Errno 2] No such file or directory: '.services.testci.image = "1.0.5-e43f685"'
- Container testci-testci-1  Created
- Container testci-testci-1  Starting
- Container testci-testci-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  123.9kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
- Container testci-testci-1  Created
- Container testci-testci-1  Starting
- Container testci-testci-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  123.9kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
- Container testci-testci-1  Created
- Container testci-testci-1  Starting
- Container testci-testci-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  124.4kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
- Container testci-testci-1  Created
- Container testci-testci-1  Starting
- Container testci-testci-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  125.4kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T09:59:37-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Creating
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  126.5kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T10:50:54-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  127.5kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T10:52:03-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon    128kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T10:52:34-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon    129kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T10:54:14-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon    130kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T20:08:14-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  131.1kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T20:10:05-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  131.6kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
- Network mikey_default  Creating
- Network mikey_default  Created
- Container mikey-app-1  Creating
- Container mikey-app-1  Created
- Container mikey-app-1  Starting
- Container mikey-app-1  Started
+#7 exporting to image
+#7 exporting layers done
+#7 writing image sha256:5d99cb6747cb73714211b29fa42cd2e1ce754b9a0f7d8c1977da6799f9787307 done
+#7 naming to docker.io/library/1.0.4-e43f685 done
+#7 DONE 0.0s
+The build variable is not set. Defaulting to a blank string.
+[6807] Failed to execute script docker-compose
+Traceback (most recent call last):
+  File "docker-compose", line 3, in <module>
+  File "compose/cli/main.py", line 81, in main
+  File "compose/cli/main.py", line 203, in perform_command
+  File "compose/metrics/decorator.py", line 18, in wrapper
+  File "compose/cli/main.py", line 1186, in up
+  File "compose/cli/main.py", line 1182, in up
+  File "compose/project.py", line 664, in up
+  File "compose/service.py", line 352, in ensure_image_exists
+  File "compose/service.py", line 378, in image
+  File "docker/utils/decorators.py", line 17, in wrapped
+docker.errors.NullResource: Resource ID was not provided
 From https://github.com/Mikeyifr/testci
  * branch            stage      -> FETCH_HEAD
 Already up to date.
 M	ci.sh
+M	docker-compose.yml
+M	log.txt
+M	package.json
+Your branch is up to date with 'origin/stage'.
+Version: 1.0.4
+Commit SHA: e43f685
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 72B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:20.04
+#3 DONE 0.6s
+
+#4 [1/2] FROM docker.io/library/ubuntu:20.04@sha256:8e5c4f0285ecbb4ead070431d29b576a530d3166df73ec44affc1cd27555141b
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 29B done
+#5 DONE 0.0s
+
+#6 [2/2] COPY test.txt .
+#6 CACHED
+
+#7 exporting to image
+#7 exporting layers done
+#7 writing image sha256:5d99cb6747cb73714211b29fa42cd2e1ce754b9a0f7d8c1977da6799f9787307 done
+#7 naming to docker.io/library/1.0.4-e43f685 done
+#7 DONE 0.0s
+[6877] Failed to execute script docker-compose
+Traceback (most recent call last):
+  File "docker-compose", line 3, in <module>
+  File "compose/cli/main.py", line 81, in main
+  File "compose/cli/main.py", line 203, in perform_command
+  File "compose/metrics/decorator.py", line 18, in wrapper
+  File "compose/cli/main.py", line 1186, in up
+  File "compose/cli/main.py", line 1182, in up
+  File "compose/project.py", line 664, in up
+  File "compose/service.py", line 352, in ensure_image_exists
+  File "compose/service.py", line 378, in image
+  File "docker/utils/decorators.py", line 17, in wrapped
+docker.errors.NullResource: Resource ID was not provided
+From https://github.com/Mikeyifr/testci
+ * branch            stage      -> FETCH_HEAD
+Already up to date.
+M	ci.sh
+M	docker-compose.yml
+M	log.txt
+M	package.json
+Your branch is up to date with 'origin/stage'.
+Version: 1.0.4
+Commit SHA: e43f685
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 72B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:20.04
+#3 DONE 1.1s
+
+#4 [1/2] FROM docker.io/library/ubuntu:20.04@sha256:8e5c4f0285ecbb4ead070431d29b576a530d3166df73ec44affc1cd27555141b
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 29B done
+#5 DONE 0.0s
+
+#6 [2/2] COPY test.txt .
+#6 CACHED
+
+#7 exporting to image
+#7 exporting layers done
+#7 writing image sha256:5d99cb6747cb73714211b29fa42cd2e1ce754b9a0f7d8c1977da6799f9787307 done
+#7 naming to docker.io/library/1.0.4-e43f685 done
+#7 DONE 0.0s
+Recreating testci_app_1 ... 
+Recreating testci_app_1 ... done
+From https://github.com/Mikeyifr/testci
+ * branch            stage      -> FETCH_HEAD
+Already up to date.
+M	ci.sh
+M	docker-compose.yml
 M	log.txt
 M	package.json
 Your branch is up to date with 'origin/stage'.
 Version: 1.0.5
 Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#0 building with "default" instance using docker driver
 
-Sending build context to Docker daemon  133.1kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T20:13:43-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 72B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:20.04
+#3 DONE 0.6s
+
+#4 [1/2] FROM docker.io/library/ubuntu:20.04@sha256:8e5c4f0285ecbb4ead070431d29b576a530d3166df73ec44affc1cd27555141b
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 29B done
+#5 DONE 0.0s
+
+#6 [2/2] COPY test.txt .
+#6 CACHED
+
+#7 exporting to image
+#7 exporting layers done
+#7 writing image sha256:5d99cb6747cb73714211b29fa42cd2e1ce754b9a0f7d8c1977da6799f9787307 done
+#7 naming to docker.io/library/1.0.5-e43f685 done
+#7 DONE 0.0s
+Recreating testci_app_1 ... 
+Recreating testci_app_1 ... done
 From https://github.com/Mikeyifr/testci
  * branch            stage      -> FETCH_HEAD
 Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.5
+Version: 1.0.6
 Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#0 building with "default" instance using docker driver
 
-Sending build context to Docker daemon  134.1kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T20:18:09-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.2s
 
-Sending build context to Docker daemon  136.2kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T20:19:40-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 72B done
+#2 DONE 0.3s
 
-Sending build context to Docker daemon  137.2kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T20:20:22-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#3 [internal] load metadata for docker.io/library/ubuntu:20.04
+#3 DONE 0.7s
 
-Sending build context to Docker daemon  138.2kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T20:20:45-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#4 [1/2] FROM docker.io/library/ubuntu:20.04@sha256:8e5c4f0285ecbb4ead070431d29b576a530d3166df73ec44affc1cd27555141b
+#4 DONE 0.0s
 
-Sending build context to Docker daemon  139.8kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T20:22:36-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#5 [internal] load build context
+#5 transferring context: 29B done
+#5 DONE 0.1s
 
-Sending build context to Docker daemon  140.3kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T20:24:39-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.5
-Commit SHA: e43f685
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
+#6 [2/2] COPY test.txt .
+#6 CACHED
 
-Sending build context to Docker daemon  142.3kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-time="2024-12-23T20:27:57-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  142.8kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-validating /home/mikey/testci/docker-compose.yml: services.app Additional property port is not allowed
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.5
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  143.9kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.5-e43f685:latest
-validating /home/mikey/testci/docker-compose.yml: services.app Additional property port is not allowed
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.3
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  144.9kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.3-e43f685:latest
-validating /home/mikey/testci/docker-compose.yml: services.app Additional property port is not allowed
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.3
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  145.9kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.3-e43f685:latest
-validating /home/mikey/testci/docker-compose.yml: services.app Additional property port is not allowed
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.3
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  146.4kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.3-e43f685:latest
-time="2024-12-23T20:34:24-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Recreate
- Container testci-app-1  Recreated
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.3
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  148.5kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.3-e43f685:latest
-time="2024-12-23T20:34:41-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.3
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon    149kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.3-e43f685:latest
-time="2024-12-23T20:35:07-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.3
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  150.5kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.3-e43f685:latest
-usage: yq [-h] [--yaml-output] [--yaml-roundtrip]
-          [--yaml-output-grammar-version {1.1,1.2}] [--width WIDTH]
-          [--indentless-lists] [--in-place] [--version]
-          [jq_filter] [files ...]
-yq: error: argument files: can't open '.services.app.image = "$build"': [Errno 2] No such file or directory: '.services.app.image = "$build"'
-time="2024-12-23T20:36:44-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.3
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  152.6kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.3-e43f685:latest
-usage: yq [-h] [--yaml-output] [--yaml-roundtrip]
-          [--yaml-output-grammar-version {1.1,1.2}] [--width WIDTH]
-          [--indentless-lists] [--in-place] [--version]
-          [jq_filter] [files ...]
-yq: error: argument files: can't open '.services.app.image = "$build"': [Errno 2] No such file or directory: '.services.app.image = "$build"'
-time="2024-12-23T20:37:00-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.3
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  154.1kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.3-e43f685:latest
-usage: yq [-h] [--yaml-output] [--yaml-roundtrip]
-          [--yaml-output-grammar-version {1.1,1.2}] [--width WIDTH]
-          [--indentless-lists] [--in-place] [--version]
-          [jq_filter] [files ...]
-yq: error: argument files: can't open '.services.app.image = "$build"': [Errno 2] No such file or directory: '.services.app.image = "$build"'
-time="2024-12-23T20:37:48-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.3
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  155.1kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.3-e43f685:latest
-usage: yq [-h] [--yaml-output] [--yaml-roundtrip]
-          [--yaml-output-grammar-version {1.1,1.2}] [--width WIDTH]
-          [--indentless-lists] [--in-place] [--version]
-          [jq_filter] [files ...]
-yq: error: argument files: can't open '.services.app.image = "$build"': [Errno 2] No such file or directory: '.services.app.image = "$build"'
-time="2024-12-23T20:38:48-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.3
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  156.7kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.3-e43f685:latest
-usage: yq [-h] [--yaml-output] [--yaml-roundtrip]
-          [--yaml-output-grammar-version {1.1,1.2}] [--width WIDTH]
-          [--indentless-lists] [--in-place] [--version]
-          [jq_filter] [files ...]
-yq: error: argument files: can't open '.services.app.image = "$build"': [Errno 2] No such file or directory: '.services.app.image = "$build"'
- Network testci_default  Creating
- Network testci_default  Created
-time="2024-12-23T20:39:49-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Creating
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.3
-Commit SHA: e43f685
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  158.7kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.3-e43f685:latest
-usage: yq [-h] [--yaml-output] [--yaml-roundtrip]
-          [--yaml-output-grammar-version {1.1,1.2}] [--width WIDTH]
-          [--indentless-lists] [--in-place] [--version]
-          [jq_filter] [files ...]
-yq: error: argument files: can't open '.services.app.image = "$build"': [Errno 2] No such file or directory: '.services.app.image = "$build"'
-time="2024-12-23T20:43:51-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
-From https://github.com/Mikeyifr/testci
- * branch            stage      -> FETCH_HEAD
-Already up to date.
-M	ci.sh
-M	log.txt
-M	package.json
-Your branch is up to date with 'origin/stage'.
-Version: 1.0.3
-Commit SHA: e43f685
-usage: yq [-h] [--yaml-output] [--yaml-roundtrip]
-          [--yaml-output-grammar-version {1.1,1.2}] [--width WIDTH]
-          [--indentless-lists] [--in-place] [--version]
-          [jq_filter] [files ...]
-yq: error: argument files: can't open '.services.app.image = "$build"': [Errno 2] No such file or directory: '.services.app.image = "$build"'
-DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
-            Install the buildx component to build images with BuildKit:
-            https://docs.docker.com/go/buildx/
-
-Sending build context to Docker daemon  159.7kB
-Step 1/2 : FROM ubuntu:20.04
- ---> 6013ae1a63c2
-Step 2/2 : COPY test.txt .
- ---> Using cache
- ---> fed5a1848005
-Successfully built fed5a1848005
-Successfully tagged 1.0.3-e43f685:latest
-time="2024-12-23T20:47:30-02:00" level=warning msg="Found orphan containers ([testci-testci-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
- Container testci-app-1  Created
- Container testci-app-1  Starting
- Container testci-app-1  Started
+#7 exporting to image
+#7 exporting layers done
+#7 writing image sha256:5d99cb6747cb73714211b29fa42cd2e1ce754b9a0f7d8c1977da6799f9787307 0.0s done
+#7 naming to docker.io/library/1.0.6-e43f685 0.1s done
+#7 DONE 0.1s
+Recreating testci_app_1 ... 
+Recreating testci_app_1 ... done
